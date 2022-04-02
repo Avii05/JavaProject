@@ -1,5 +1,9 @@
 package Unit01;
 
+/*
+ * Operator in Java is a symbol that is used to perform operation
+ */
+
 public class P3_Task02_OperatorsInJava {
 
 	public static void main(String[] args) {

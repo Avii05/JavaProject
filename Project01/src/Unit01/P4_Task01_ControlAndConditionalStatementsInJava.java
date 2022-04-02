@@ -90,7 +90,7 @@ class Statements{
 		int i=0;
 		System.out.println("Printing the list of first 10 even numbers \n");
 		while(i<=10) {
-			System.out.println(i);
+			System.out.print(i+" ");
 			i=i+2;
 		}
 		
@@ -101,7 +101,7 @@ class Statements{
 		i=0;
 		System.out.println("Printing the list of first 10 even numbers \n");
 		do {
-			System.out.println(i);
+			System.out.print(i+" ");
 			i=i+2;
 		}while(i<=10);
 	}
@@ -111,11 +111,11 @@ class Statements{
 		//Break
 		System.out.println("\n");
 		for(int i=0;i<=10;i++) {
-			System.out.println(i);
+			System.out.print(i+" ");
 			if(i==6) {
 				break;
 			}
-			System.out.println(i);
+			System.out.print(i+" ");
 		}
 		
 		//Continue
@@ -124,7 +124,7 @@ class Statements{
 			if(i==6) {
 				continue;
 			}
-			System.out.println(i);
+			System.out.print(i+" ");
 			}
 		}
 	}
