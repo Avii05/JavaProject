@@ -24,7 +24,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		int p=10;
 
 		public static void main(String[] args) {
-	//Valid Declaration
+	      //Valid Declaration
 			int b,c;
 			float pi;
 			double d;
