@@ -22,9 +22,9 @@ public class P4_Task02_WrapperClassesInJava {
 		//Autoboxing, now complier will write Integer, valueOf(a) internally
 		Integer j=a;
 
-		System.out.println(a +" "+ i +" " + j);
+		System.out.println("Value of a: "+a +" Value of i: "+ i +" Value of j: " + j);
 		
-		System.out.println(i.toString());
+		System.out.println("Converted int in string is: "+i.toString());
 		
 		//a.toString() can not be done due to a is int not object
 		
@@ -32,11 +32,11 @@ public class P4_Task02_WrapperClassesInJava {
 		byte b=10;
 		Byte byteobj=b;
 		
-		System.out.println(byteobj);
+		System.out.println("DataType in object: "+byteobj);
 		
 		//Unboxing: Converting Objects To Primitives
 		byte bytevalue=byteobj;
-		System.out.println(bytevalue);
+		System.out.println("Object in Datatype: "+bytevalue);
 	}
 
 }
