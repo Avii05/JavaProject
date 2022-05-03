@@ -16,6 +16,7 @@ public class P5_Task03_ConstructorsInJava {
 	public static void main(String[] args) {
 		
 		ABC4 obj=new ABC4();
+
 		
 		ABC4 obj1=new ABC4(1);
 		
@@ -46,7 +47,7 @@ class ABC4 {
 	void display() {
 		
 		int b=10;
-		
+		b++;
 		System.out.println("Value of a="+a);
 		System.out.println("Value of b="+b);
 	}

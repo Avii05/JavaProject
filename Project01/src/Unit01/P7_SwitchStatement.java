@@ -26,7 +26,7 @@ import java.util.Scanner;
 			int num;
 			System.out.println("Enter your Choice Between 1 to 3:");
 			num=sc.nextInt();
-			1
+			
 			switch(num)
 			{
 			case 1:

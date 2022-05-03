@@ -84,6 +84,7 @@ interface A1{
 	
 	void funcA();
 	
+	
 }
 
 interface B1 extends A1{

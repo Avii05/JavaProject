@@ -5,9 +5,9 @@ public class P5_Task01_ClassAndObjectInJava {
 	public static void main(String[] args) {
 		
 		ABC2 obj=new ABC2();
-		obj.display2();
+		obj.display2(); //called by object for method in class ABC2
 		
-		ABC2.display();
+		ABC2.display(); // called by class for static method
 
 	}
 

@@ -5,7 +5,7 @@ public class P11_Task01_AccessProtectionInJava {
 	public int a=10;
 	
 	public static void main(String[] args) {
-		
+	
 		ChildClass obj=new ChildClass();
 		obj.showData();
 		obj.accessData();
@@ -33,12 +33,16 @@ class ParentClass{
 class ChildClass extends ParentClass{
 	
 	void accessData() {
-		ParentClass obj=new ParentClass();
+	    ParentClass obj=new ParentClass();
 		System.out.println("\n");
         System.out.println("Value in Extented Class");
 		System.out.println("Value of 'a' in ChildClass extended from ParentClass= "+obj.a);
 		System.out.println("Value of 'b' in ChildClass extended from ParentClass= "+obj.b);
 		System.out.println("Value of 'c' in ChildClass extended from ParentClass= "+obj.c);
+		 System.out.println("Value in Extented Class Without using obj");
+			System.out.println("Value of 'a' in ChildClass extended from ParentClass= "+a);
+			System.out.println("Value of 'b' in ChildClass extended from ParentClass= "+b);
+			System.out.println("Value of 'c' in ChildClass extended from ParentClass= "+c);
 		//System.out.println(obj.d); // private number cannot be accessed
 	}
 	

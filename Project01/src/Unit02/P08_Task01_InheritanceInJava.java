@@ -88,7 +88,7 @@ class Three extends Two{
 	}
 	
 	public void methodThree() {
-		System.out.println("SecondMethod!");
+		System.out.println("Three Method!");
 	}
 }
 
