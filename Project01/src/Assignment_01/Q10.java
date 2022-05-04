@@ -7,6 +7,10 @@ public class Q10 {
 	public static void main(String[] args) {
 		City arr[]=new City[4];
 		
+		System.out.println("Question 10");
+		System.out.println("Avnendra Singh Chauhan_F_200211224");
+		System.out.println("\t");
+		
 		Scanner obj= new Scanner(System.in);
 		String p;
 		int l,m,n,o;

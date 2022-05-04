@@ -26,6 +26,10 @@ package Assignment_01;
 
 		public static void main(String [] agrs) {
 		Scanner in =new Scanner(System.in);
+		
+		System.out.println("Question 03");
+		System.out.println("Avnendra Singh Chauhan_F_200211224");
+		System.out.println("\t");
 		System.out.println("Enter the number to be checked");
 		int n=in.nextInt();
 		

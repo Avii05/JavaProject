@@ -4,25 +4,29 @@ public class Q07 {
 	
 		public static void main(String[] agrs) {
 			int j=0;
-			Employee obj=new Employee();
+			System.out.println("Question 07");
+			System.out.println("Avnendra Singh Chauhan_F_200211224");
+			System.out.println("\t");
+			
+			Employe obj=new Employe();
 			j++;
-			Employee obj1=new Employee();
+			Employe obj1=new Employe();
 			j++;
-			Employee obj2=new Employee();
+			Employe obj2=new Employe();
 			j++;
-			Employee obj3=new Employee();
+			Employe obj3=new Employe();
 			j++;
-			Employee obj4=new Employee();
+			Employe obj4=new Employe();
 			j++;
-			Employee obj5=new Employee();
+			Employe obj5=new Employe();
 			j++;
-			Employee obj6=new Employee();
+			Employe obj6=new Employe();
 			j++;
-			Employee obj7=new Employee();
+			Employe obj7=new Employe();
 			j++;
-			Employee obj8=new Employee();
+			Employe obj8=new Employe();
 			j++;
-			Employee obj9=new Employee();
+			Employe obj9=new Employe();
 			j++;
 			
 			System.out.println("Number of object created="+j);
@@ -38,7 +42,7 @@ public class Q07 {
 		}
 	}
 
-	class Employee{
+	class Employe{
 		
 		static int i=0;
 		void display(){

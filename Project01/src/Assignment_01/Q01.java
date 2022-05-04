@@ -10,6 +10,8 @@ package Assignment_01;
 public class Q01  {
 
 	public static void main(String[] args) {
+		System.out.println("Question 01");
+		System.out.println("Avnendra Singh Chauhan_F_200211224");
 		Student obj = new Student("Rahul", 14, 'A', 88);
 		Student obj1 = new Student("Sumit", 14, 'A', 78);
 		Student obj2 = new Student("YAsh", 12, 'A', 98);
@@ -45,11 +47,18 @@ class Student
 		Section = sec;
 		percentage = per;
 		avg_per += per;
+		
+		System.out.println("\t");
+		System.out.println("Name: "+name);
+		System.out.println("Section= "+Section);
+		System.out.println("Age= "+age);
+		System.out.println("Percentage= "+percentage+"%");
 	}
 	
 	void get_avg()
 	{
 		int average = avg_per/6;
-		System.out.println("Average is "+average+"%"); 
+		System.out.println("\t");
+		System.out.println("Average Percantage of all students= "+average+"%"); 
 	}
 }

@@ -6,6 +6,10 @@ public class Q06 {
 		  
 		public static void main(String[] agrs) {
 			
+			System.out.println("Question 06");
+			System.out.println("Avnendra Singh Chauhan_F_200211224");
+			System.out.println("\t");
+			
 			Scanner in =new Scanner(System.in);
 			int a,b;
 			System.out.println("Enter the numbers on which task is to be performed");

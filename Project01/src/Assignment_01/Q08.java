@@ -5,6 +5,11 @@ import java.util.*;
 public class Q08 {
 	
 		public static void main(String[] agrs) {
+			
+			System.out.println("Question 08");
+			System.out.println("Avnendra Singh Chauhan_F_200211224");
+			System.out.println("\t");
+			
 			Scanner in=new Scanner(System.in);
 			System.out.print("Enter the size of array:");
 			int n=in.nextInt();
