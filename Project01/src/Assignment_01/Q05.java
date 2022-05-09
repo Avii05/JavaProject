@@ -1,70 +1,65 @@
 package Assignment_01;
 
 import java.util.Scanner;
-public class Q05 {
-
-	public static void main(String[] args) {
-		
-		System.out.println("Question 05");
-		System.out.println("Avnendra Singh Chauhan_F_200211224");
-		System.out.println("\t");
-		
-		Employee arr[] = new Employee[8];
-		String s;
-		int age;
-		String depart;
-		int salary;
-		Scanner in = new Scanner(System.in);
-		for(int i = 0; i < 4; i++)
-		{
-			System.out.println("Enter the detail of "+(i+1)+" Employee");
-			s = in.nextLine();
-			age = in.nextInt();
-			depart = in.next();
-			salary = in.nextInt();
-			
-			arr[i] = new Employee(s, age, depart, salary);
-			
-		}
-		//check total salary
-		Employee result = new Employee();
-		result.total_salary();
-		
-	}
-
-}
 
 class Employee
 {
-	String name;
+	String Name;
 	int age;
 	String Department;
-	int salary;
-	static int total_sal = 0;
-	
+	int Salary;
+	//static int SalA,SalB,SalC,SalD;
 	Employee()
 	{
-		//Default one
-	}
-	Employee(String s, int a, String depart, int sal)
-	{
-		name = s;
-		age = a;
-		Department = depart;
-		if(sal > 30000)
-		{
-			salary = 25000;
-		}
-		else
-		{
-			salary = sal;
-		}
-		total_sal += sal;
+		System.out.println("Enter Student Details:");
+		Scanner s=new Scanner(System.in);
+		System.out.print("Name: ");
+		this.Name=s.nextLine();
+		System.out.print("Age: ");
+		this.age=s.nextInt();
+		System.out.print("Department: ");
+		this.Department=s.next();
+		System.out.print("Salary ");
+		this.Salary=s.nextInt();
+		if(this.Salary>=30000) this.Salary=25000;
 	}
 	
-	void total_salary()
-	{
-		System.out.println("Total salary is "+total_sal);
-	}
 	
+}
+public class Q05 {
+
+	static int sumA=0,sumB=0,sumC=0,sumD=0;
+	public static void main(String[] args) {
+		Employee array[];
+		array=new Employee[8];
+		for(int i=0;i<8;i++)
+		{
+			array[i]=new Employee();
+		}
+		for(int i=0;i<8;i++)
+		{
+			
+			if(array[i].Department=="A")
+			{
+				sumA+=array[i].Salary;
+			}
+			else if(array[i].Department=="B")
+			{
+				sumB+=array[i].Salary;
+			}
+			else if(array[i].Department=="C")
+			{
+				sumC+=array[i].Salary;
+			}
+			else {
+				sumD+=array[i].Salary;
+			}
+				
+		}
+		System.out.println("For A: "+sumA);
+		System.out.println("For B: "+sumB);
+		System.out.println("For C: "+sumC);
+		System.out.println("For D: "+sumD);
+	}
+
 }
