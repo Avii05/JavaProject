@@ -5,7 +5,7 @@ public class P2_Task01_KeywordsInJava {
 	{
 		//Keyword as Identifier 
 		
-		int float=2.5f; //Syntax error on token "float", invalid
+		/*int float=2.5f; //Syntax error on token "float", invalid
 	    
 		
 		// keyword as Function
@@ -19,7 +19,7 @@ public class P2_Task01_KeywordsInJava {
 		
 		//Keyword as Object
 		
-		student int= new student(); //student cannot be resolved to a variable
+		student int= new student();*/ //student cannot be resolved to a variable
 	}
 }
 class student{
