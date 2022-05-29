@@ -9,7 +9,7 @@ public class P15_FileHandling_In_Java_Task_01 {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception {
-		File file = new File("/Users/rishavverma/git/JavaInDepth/JavaLearning/src/Unit03/output.txt");
+		File file = new File("/Users/c/git/JavaProject/Project01/src/Unit03/output.txt");
 		FileInputStream fileInputStream = new FileInputStream(file);
 		InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
 		BufferedReader bufferedReader = new BufferedReader(inputStreamReader);

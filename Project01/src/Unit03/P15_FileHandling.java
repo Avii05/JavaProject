@@ -38,7 +38,7 @@ class ABCDEF {
 
 	void takeInputFromAFile() throws IOException {
 
-		String path = "/Users/rishavverma/git/JavaInDepth/JavaLearning/src/Unit03/Input.txt";
+		String path = "/Users/c/git/JavaProject/Project01/src/Unit03/Input.txt";
 		File file = new File(path);
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
@@ -71,7 +71,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("/Users/rishavverma/git/JavaInDepth/JavaLearning/src/Unit03/output.txt");
+			myObj = new FileWriter("/Users/c/git/JavaProject/Project01/src/Unit03/output.txt");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -97,7 +97,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("/Users/rishavverma/git/JavaInDepth/JavaLearning/src/Unit03/log.txt", true);
+			myObj = new FileWriter("/Users/c/git/JavaProject/Project01/src/Unit03/log.txt", true);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
