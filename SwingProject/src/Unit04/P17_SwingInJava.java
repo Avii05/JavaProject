@@ -24,9 +24,9 @@ public class P17_SwingInJava {
 	}
 }
 
-class SwingInJava extends JFrame{
+class SwingInJava extends JFrame{ //inherited with the class JFrame to use functionality for creating intreface
 	
-	JTextField t1;
+	JTextField t1; //creates the field for writing text
 	JTextField t2;
 	
 	JTextArea jt1; //Text area on the screen
@@ -35,10 +35,10 @@ class SwingInJava extends JFrame{
 	JButton b2; //creating a Button for multiply
 	JButton b3; //creating a Button for subtract
 	
-	JRadioButton r1;
-	JRadioButton r2;
+	JRadioButton r1; 
+	JRadioButton r2; 
 	
-	JCheckBox c1;
+	JCheckBox c1; 
 	JCheckBox c2;
 	
 	JList list; //Creating a list whose whole content is visible in once on screen
@@ -61,10 +61,10 @@ class SwingInJava extends JFrame{
 		b2=new JButton("Multiply"); //Button created for calculating multiply 
 		b3=new JButton("Subtract"); //Button created for calculating subtract
 		
-		r1 = new JRadioButton("MALE");
+		r1 = new JRadioButton("MALE"); //for choosing the gender out of only one can be chosen 
 		r2 = new JRadioButton("FEMALE");
 		
-		c1=new JCheckBox("Dancer!");
+		c1=new JCheckBox("Dancer!");// for choosing the activity even we can choose both
 		c2=new JCheckBox("Singer!");
 		
 		jt1 =new JTextArea(10,20); // allocating area for a text box whose dimension are present in bracket		
@@ -89,14 +89,15 @@ class SwingInJava extends JFrame{
 		add(t1); //whenever we create a field whether it is area, button or anything it's being necessary to add it 
 		add(t2); // if not added then creating that particular field have no use 
 		
-		add(b1);
+		add(b1);//whenever we create a field whether it is area, button or anything it's being necessary to add it
 		add(b2);
 		add(b3);
 		
 		add(r1);
 		add(r2);
 		
-		ButtonGroup bg=new ButtonGroup();
+		ButtonGroup bg=new ButtonGroup(); //This class is used to create a multiple-exclusion scope fora set of buttons. Creating a set of buttons with thesame ButtonGroup object means 
+		                                  // that turning "on" one of those buttons turns off all other buttons in the group
 		bg.add(r1);
 		bg.add(r2);
 		
@@ -120,7 +121,7 @@ class SwingInJava extends JFrame{
 		ActionListener al=new ActionListener() { // for performing a specific task ActionListener is used
 			
 			@Override
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) {//To invoke an ActionEvent on a Button using the keyboard, use the Space bar.
 			
 				int a1=Integer.parseInt(t1.getText()); //taking input
 				int a2=Integer.parseInt(t2.getText()); //taking input
