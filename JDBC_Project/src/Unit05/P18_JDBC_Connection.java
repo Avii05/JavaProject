@@ -1,11 +1,11 @@
 package Unit05;
-
+// TO add a library right click on project->properties->java build path->Libraries->Module path->Add library or Add external JARs 
 import java.sql.*;
-//import java.beans.Statement;
-//import java.sql.Connection;
-//import java.sql.DriverManager;
-//import java.sql.ResultSet;
-//import java.sql.SQLException;
+/*import java.beans.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;*/
 
 public class P18_JDBC_Connection {
 
@@ -17,7 +17,7 @@ public class P18_JDBC_Connection {
 		myConn =DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcDatabase", "avii" , "root");
 		myStmt = myConn.createStatement();
 		
-		int a = myStmt.executeUpdate("INSERT INTO jdbc_tbl VALUES (5, 'Mysql','Akbar', '2021-02-18')");
+		int a = myStmt.executeUpdate("INSERT INTO jdbc_tbl VALUES (6, 'Mysql','Akbar', '2021-02-18')");
 		
 		myRs = myStmt.executeQuery("select * from jdbc_tbl");
 		
