@@ -70,7 +70,7 @@ class ABC5 {
 		// child catch block]
 		catch (ArithmeticException e) {
 
-			System.out.println("kahddeuggdcbjguyxgxqui");
+			System.out.println("hio");
 			System.out.println(e.getMessage());
 		}
 
@@ -90,10 +90,10 @@ class ABC5 {
 		// child catch block]
 		catch (ArithmeticException e) {
 
-			System.out.println("kahddeuggdcbjguyxgxqui");
+			System.out.println("hio");
 			System.out.println(e.getMessage());
 		} catch (Exception e) {
-			System.out.println("kahddeuggdcbjguyxgxqui");
+			System.out.println("hio");
 			System.out.println(e.getMessage());
 		}
 
