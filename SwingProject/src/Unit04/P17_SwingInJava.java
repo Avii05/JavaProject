@@ -37,11 +37,13 @@ class SwingInJava extends JFrame{ //inherited with the class JFrame to use funct
 	JButton b2; //creating a Button for multiply
 	JButton b3; //creating a Button for subtract
 	
-	JRadioButton r1; 
-	JRadioButton r2; 
+	JRadioButton r1; //An implementation of a radio button -- an item that can be selected or deselected, and which displays its state to the user.Used with a ButtonGroup 
+	JRadioButton r2; //object to create a group of buttons in which only one button at a time can be selected.
+	                 //(Create a ButtonGroupobject and use its add method to include the JRadioButton objects in the group.) 
+
+	JCheckBox c1; //An implementation of a check box -- an item that can be selected ordeselected, and which displays its state to the user.
+	JCheckBox c2; //By convention, any number of check boxes in a group can be selected 
 	
-	JCheckBox c1; 
-	JCheckBox c2;
 	
 	JList list; //Creating a list whose whole content is visible in once on screen
 	
@@ -98,7 +100,7 @@ class SwingInJava extends JFrame{ //inherited with the class JFrame to use funct
 		add(r1);
 		add(r2);
 		
-		ButtonGroup bg=new ButtonGroup(); //This class is used to create a multiple-exclusion scope fora set of buttons. Creating a set of buttons with thesame ButtonGroup object means 
+		ButtonGroup bg=new ButtonGroup(); //This class is used to create a multiple-exclusion scope for a set of buttons. Creating a set of buttons with thesame ButtonGroup object means 
 		                                  // that turning "on" one of those buttons turns off all other buttons in the group
 		bg.add(r1);
 		bg.add(r2);
